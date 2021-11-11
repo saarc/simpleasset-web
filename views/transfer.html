@@ -1,0 +1,42 @@
+
+ <!DOCTYPE html>
+ <html>
+ 
+ <head>
+     <title>SIMPLE_ASSET</title>
+ 
+     <!-- 부트스트랩 라이브러리  -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+ </head>
+ 
+ <body>
+<!-- 
+    자산이름 입력부분 from, to
+    전송값 입력부분
+    전송 버튼
+ -->
+   <div class="container">
+           <h2>Welcome to Simple Asset</h2>
+           <form action="/transfer" method="post">
+            
+             <label for="fname">wallet name:</label><br>
+             <input type="text" id="user" name="user"><br><br>
+
+             <label for="fname">Asset from key:</label><br>
+             <input type="text" id="fromkey" name="fromkey"><br><br>
+
+             <label for="fname">Asset to key:</label><br>
+             <input type="text" id="tokey" name="tokey"><br><br>
+             
+             <label for="lname">Asset value:</label><br>
+             <input type="text" id="amount" name="amount"><br><br>
+             
+             <input type="submit" value="전송" class="btn btn-success">
+           </form> 
+     </div>
+     
+ </body>
+ </html>
+ 
