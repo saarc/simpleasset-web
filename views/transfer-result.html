@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SIMPLE_ASSET</title>
+
+    <!-- 부트스트랩 라이브러리  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+<!-- 
+    자신이름 입력부분 
+    자산조회 버튼
+-->
+  <div class="container">
+          <h2>Welcome to Simple Asset</h2>
+          <h2>Transaction has been submitted</h2>
+
+          <form action="/asset" method="get">
+          
+            <label for="fname">Asset key:</label><br>
+            <input type="text" id="key" name="key"><br><br>
+            
+        
+            <input type="submit" value="자산조회" class="btn btn-success">
+          </form> 
+    </div>
+    
+</body>
+</html>
